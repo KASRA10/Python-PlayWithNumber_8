@@ -5,7 +5,7 @@ print("""Instructions:
 1- a number from 1 to 9
 2- chosen number * 2
 3- result + 8
-4- result - first chosen number
+4- result + first chosen number
 5- result - 2
 6- result / 3
 7- result - first chosen number
@@ -25,7 +25,7 @@ else:
     firstNumber += 8
     print("Step 3: result + 8 = ", firstNumber)
     firstNumber += earliestNumber
-    print("Step 4: result - first chosen number = ", firstNumber)
+    print("Step 4: result + first chosen number = ", firstNumber)
     firstNumber -= 2
     print("Step 5: result - 2 = ", firstNumber)
     firstNumber //= 3
